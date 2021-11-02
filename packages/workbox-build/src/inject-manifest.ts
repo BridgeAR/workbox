@@ -10,7 +10,7 @@ import {RawSourceMap} from 'source-map';
 import assert from 'assert';
 import fse from 'fs-extra';
 import sourceMapURL from 'source-map-url';
-import stringify from 'fast-json-stable-stringify';
+import stringify from 'safe-stable-stringify';
 import upath from 'upath';
 
 import {BuildResult} from './types';
